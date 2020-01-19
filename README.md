@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 
 ### `Login with`
 
-Username: Admin
+Username: Admin,
 Password: 54321
 
 ### `yarn test`
