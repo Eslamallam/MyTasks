@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<header>
+  <NavLink
+    activeClassName="is-active"
+    className="nav-item"
+    to="/home"
+  >
+    Home
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    className="nav-item"
+    to="/tasks"
+  >
+    Tasks
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    className="nav-item"
+    to="/profile"
+  >
+    Profile
+  </NavLink>
+</header>
+`;

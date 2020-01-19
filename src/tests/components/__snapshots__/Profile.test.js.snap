@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render task list with tasks 1`] = `
+<div
+  className="profile-box"
+>
+  <h1>
+    Welcome
+  </h1>
+  <h4>
+    Don't Share your data with anyone
+  </h4>
+  <p>
+    Name: 
+  </p>
+  <p>
+    E-mail: 
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Logout
+  </button>
+</div>
+`;

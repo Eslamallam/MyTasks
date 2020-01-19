@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render task list with tasks 1`] = `
+<div
+  className="task-list"
+>
+  <NavLink
+    className="nav-item"
+    to="/createtask"
+  >
+    Create New
+  </NavLink>
+  <Connect(TaskItem)
+    category="Sport"
+    description="Run for 10 min"
+    id={1}
+    key="1"
+  />
+  <Connect(TaskItem)
+    category="Entertainment"
+    description="Watch a movie"
+    id={2}
+    key="2"
+  />
+  <Connect(TaskItem)
+    category="Work"
+    description="Do my tasks"
+    id={3}
+    key="3"
+  />
+</div>
+`;

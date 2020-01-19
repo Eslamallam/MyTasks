@@ -1,0 +1,48 @@
+.task-list {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.task-list .nav-item {
+  background: #1c88bf;
+  color: white;
+  border-radius: 3px;
+}
+
+.task-list p {
+  font-weight: 500;
+  color: #e5e5e5;
+}
+
+.task-item {
+  text-align: center;
+  color: #333333;
+  background-color: #e5e5e5;
+  width: 60%;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.task-item span {
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+.task-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.task-item button:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .task-item {
+    width: 80%;
+  }
+}

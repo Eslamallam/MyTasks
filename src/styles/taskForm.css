@@ -1,0 +1,45 @@
+.task-form {
+  margin: 10% auto;
+  width: 30%;
+  background: #e5e5e5;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.task-form label {
+  font-weight: 500;
+}
+
+.task-form input {
+  margin: 5px 0 10px 0;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+}
+
+.task-form button {
+  padding: 5px 10px;
+  color: white;
+  background: #1c88bf;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.task-form button:hover {
+  background: #1a688f;
+  cursor: pointer;
+}
+
+.task-form .error {
+  text-align: center;
+  color: red;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .task-form {
+    width: 80%;
+  }
+}

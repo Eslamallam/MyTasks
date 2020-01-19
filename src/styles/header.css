@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 0 8px;
+  color: #cccccc;
+  font-weight: 500;
+}
+
+.is-active {
+  color: white;
+  font-weight: 600;
+}

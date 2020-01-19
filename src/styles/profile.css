@@ -1,0 +1,27 @@
+.profile-box {
+  margin: 10% auto;
+  width: 30%;
+  background: #e5e5e5;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.profile-box button {
+  font-size: 15px;
+  background-color: darkgray;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.profile-box button:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .profile-box {
+    width: 80%;
+  }
+}

@@ -1,0 +1,46 @@
+.box-layout {
+  margin: 10% auto;
+  width: 30%;
+  background: #e5e5e5;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.box-layout p {
+  font-weight: 500;
+}
+
+.box-layout input {
+  margin: 5px 0;
+  width: 80%;
+  font-size: 20px;
+  border: none;
+}
+
+.box-layout button {
+  background: #1c88bf;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.box-layout button:hover {
+  background: #1a688f;
+  cursor: pointer;
+}
+
+.box-layout .error {
+  color: red;
+  font-weight: 500;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .box-layout {
+    width: 80%;
+  }
+}
